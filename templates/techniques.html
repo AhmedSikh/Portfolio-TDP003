@@ -1,0 +1,28 @@
+{% extends "template.html" %}
+{% block body %}
+<form method="POST" action="/techniques">
+	{% for tech in techniques %}	    
+	    <label id="hello" for="techniques">{{ tech }}<input onChange="this.form.submit()" type="checkbox" name="techniques" value="{{ tech }}" {% for item in checked %} {% if item == tech %} checked {% endif %}{% endfor %}/></label><br>
+	{% endfor %}
+	    <a href="/techniques"><input type="button" value="Clear All"></a>
+</form>
+
+
+<div class="main">
+    {% for project in projects %}
+        {% set img_path = "images/"+project.small_image %}
+    <div class="project">
+      <a href="/project/{{ project.project_id }}">
+      <img src="{{ url_for("static", filename=img_path) }}" alt="Photo of Name Surname">
+      <div class="text">
+	<h1>{{ project.project_name }}</h1>
+	<p>{{ project.short_description }}</p>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+
+    
+    
+  </div>
+{% endblock %}

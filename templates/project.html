@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+{% block body %}
+<h1 id="proj_name">{{ project.project_name }}</h1>
+{% set img_path = "images/"+project.big_image %}
+<img id="proj_img" src="{{ url_for("static", filename=img_path) }}">
+<p id="long_desc">{{ project.long_description }}</p>
+<div id="info" class="info">
+  <h2>INFO</h2>
+  <ul>
+    <li>Project ID: {{ project.project_id }}</li>
+    <li>Course ID: {{ project.course_id }}</li>
+    <li>Academic credits: {{ project.academic_credits }}</li>
+    <li>Start date: {{ project.start_date }}</li>
+    <li>End date: {{ project.end_date }}</li>
+    <li>Group size: {{ project.group_size }}</li>
+    <li>Techniques: {% for tech in project.techniques_used %} |{{ tech }}| {% endfor %}</li>
+    <a id="info_link" href="{{ project.external_link }}">Course Website</a>
+  </ul>
+</div>
+{% endblock %}

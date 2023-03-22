@@ -1,0 +1,55 @@
+<!doctype html>
+
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Portfolio Ahmed Sikh</title>
+    <meta name="description" content="Portfolio Ahmed Sikh">
+    <meta name="author" content="Ahmed Sikh">
+
+    <link rel="stylesheet" href="{{ url_for("static", filename="style/style.css") }}">
+
+    <script>
+      window.onload = function() {
+	  topbutton = document.getElementById("topButton");
+      };
+	  
+      window.onscroll=function() {
+	  scrollFunction();
+      };
+
+      function scrollFunction(){
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	      topbutton.style.display="block";
+	  } else {
+	      topbutton.style.display="none";
+	  }
+      }
+
+      function topFunction(){
+	  document.body.scrollTop=0;
+	  document.documentElement.scrollTop=0;
+      }
+      </script>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <a href="{{ url_for("list") }}">Projects</a>
+      <a href="{{ url_for("index") }}">Home</a>
+      <a href="{{ url_for("techniques") }}">Techniques</a>
+    </div>
+    {% block body %}
+    Ingen Body lästes in!
+    {% endblock %}
+    <button onclick="topFunction()" id="topButton" title="Go to top">^</button>
+  </body>
+  <footer>
+    {% block footer %}
+    <p>Copyright © 2023 Ahmed Sikh. All Rights Reserved.</p>
+    {% endblock %}
+  </footer>
+  
+</html>

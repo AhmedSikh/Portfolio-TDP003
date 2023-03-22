@@ -1,0 +1,49 @@
+{% extends "template.html" %}
+{% block body %}
+<img id="portrait" src="{{ url_for("static", filename="images/portrait2.jpg") }}" alt="Photo of Name Surname">
+<h1>Ahmed Sikh</h1>
+<p id="subtitle">Bachelor's Programme in Innovative Programming, Linköping University</p>
+  <div class="main">
+    
+  {% for project in projects %}
+      {% set img_path = "images/"+project.small_image %}
+      
+  <div class="project">
+    <a href="/project/{{ project.project_id }}">
+	  <img src="{{ url_for("static", filename=img_path) }}" alt="Small photo for project">
+	  <div class="text">
+	    <h1>{{ project.project_name }}</h1>
+	    <p>{{ project.short_description }}</p>
+	  </div>
+	  </a>
+	</div>
+    
+  {% endfor %}
+
+  </div>
+  <a class="main"id="subtitle" href="{{ url_for("list") }}">See all projects HERE</a>
+
+  {% endblock %}
+
+{% block footer %}
+  <div id="about">
+    
+  <a href="https://gitlab.liu.se/ahmsi881" target="_blank">
+  <img src="{{ url_for("static", filename="images/gitlab.svg") }}" alt="Gitlab logo">
+  </a>
+  <a href="https://www.linkedin.com/in/ahmed-sikh-3b798b14a/" target="_blank">
+    <img src="{{ url_for("static", filename="images/linkedin.svg") }}" alt="Linkedin">
+  </a>
+  <a href="mailto:ahmedsikh@hotmail.com" target="_blank">
+    <img src="{{ url_for("static", filename="images/mail.svg") }}" alt="Mail logo">
+  </a>
+  <a href="https://www.facebook.com/ahmedsikh" target="_blank">
+    <img src="{{ url_for("static", filename="images/facebook.svg") }}" alt="Facebook logo">
+  </a>
+  <a href="https://www.instagram.com/ahmedsikh/" target="_blank">
+    <img src="{{ url_for("static", filename="images/instagram.svg") }}" alt="Instagram">
+  </a>
+  
+</div>
+<p>Copyright © 2023 Ahmed Sikh. All Rights Reserved.</p>
+{% endblock %}

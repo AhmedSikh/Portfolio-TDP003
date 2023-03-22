@@ -1,0 +1,66 @@
+{% extends "template.html" %}
+{% block body %}
+
+<form method="POST" action="/list">
+	<input type="text" name="search" placeholder="Search Project" value="{{ search }}" />
+	<input type="submit" value="Search" /><br>
+
+	<select name="sortby" id="sortby">
+	  <option value="start_date">Start Date</option>
+	  <option value="end_date">End Date</option>
+	  <option value="project_id">Project ID</option>
+	  <option value="project_name">Project Name</option>
+	  <option value="course_id">Course ID</option>
+	  <option value="course_name">Course Name</option>
+	  <option value="group_size">Group Size</option>
+	  <option value="academic_credits">Academic Credits</option>
+	</select><br>
+
+	
+	<label for="ascending">Ascending<input type="radio" id="ascending" value="asc" name="sortorder" {% if sortorder == "asc" %} checked {% endif %}></label>
+	
+        <label for="descending">Descending<input type="radio" id="descending" value="desc" name="sortorder" {% if sortorder == "desc" %} checked {% endif %}></label><br>
+	
+	
+	<label for="searchfields">Project Name<input type="checkbox" name="searchfields" value="project_name" {{ checked["project_name"] }}/></label><br>
+	
+	<label for="searchfields">Project ID<input type="checkbox" name="searchfields" value="project_id" {{ checked["project_id"] }}/></label><br>
+	
+	<label for="searchfields">Start Date<input type="checkbox" name="searchfields" value="start_date" {{ checked["start_date"] }}/></label><br>
+	
+	<label for="searchfields">End Date<input type="checkbox" name="searchfields" value="end_date" {{ checked["end_date"] }}/></label><br>
+	
+	<label for="searchfields">Course ID<input type="checkbox" name="searchfields" value="course_id" {{ checked["course_id"] }}/></label><br>
+	
+	<label for="searchfields">Course Name<input type="checkbox" name="searchfields" value="course_name" {{ checked["course_name"] }}/></label><br>
+	
+	<label for="searchfields">Description<input type="checkbox" name="searchfields" value="short_description" {{ checked["short_description"] }}/></label><br>
+	
+	<label for="searchfields">Group Size<input type="checkbox" name="searchfields" value="group_size" {{ checked["group_size"] }}/></label><br>
+	
+	<label for="searchfields">Academic Credits<input type="checkbox" name="searchfields" value="academic_credits" {{ checked["academic_credits"] }}/></label><br>
+
+	{% for tech in techniques %}
+	    
+	    <label for="techniques">{{ tech }}<input type="checkbox" name="techniques" value="{{ tech }}" {% for item in checked %} {% if item == tech %} checked {% endif %}{% endfor %}/></label><br>
+	{% endfor %}
+	<a href="/list"><input type="button" value="Clear All"></a>
+</form>
+
+<div class="main">
+    {% for project in projects %}
+    {% set img_path = "images/"+project.small_image %}
+    <div class="project">
+      <a href="/project/{{ project.project_id }}">
+      <img src="{{ url_for("static", filename=img_path) }}" alt="Small photo for project">
+      <div class="text">
+	<h1>{{ project.project_name }}</h1>
+	<p>{{ project.short_description }}</p>
+      </div>
+      </a>
+    </div>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
