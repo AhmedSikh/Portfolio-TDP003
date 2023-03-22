@@ -1,0 +1,196 @@
+[
+  {
+    "start_date": "2023-03-20",
+    "short_description": "(Coming later)",
+    "course_name": "Degree project - Bachelor’s Thesis",
+    "long_description":"(Coming later)\n\n(Coming later)\n\nThe most important lessons learned from the project:\nability to systematically integrate knowledge acquired during the studies, ability to apply methodological knowledge and understanding in the main field of study, ability to assimilate the content of relevant literature and relate the work to this, ability to plan, implement and present an independent degree project, formulate issues, plan and carry out advanced tasks within specified time limits, ability to find and evaluate scientific literature, ability to express himself/herself professionally, in writing and orally, ability to critically examine and discuss an independent degree project presented in writing and orally and ability to make assessments with regard to relevant scientific, societal and ethical aspects.",
+    "group_size": 2,
+    "academic_credits": "16 credits",
+    "external_link": "(Coming later)",
+    "small_image": "ericsson.png",
+    "techniques_used": [
+        "(Coming later)"
+    ],
+    "project_name": "High Performing Cloud Native SW Using Key Value Storage or Database for Externalized States",
+    "course_id": "TQXX10",
+    "end_date": "2023-06-04",
+    "project_id": 1,
+    "big_image": "ericsson.png"
+  },
+  {
+    "start_date": "2022-08-29",
+    "short_description": "a project carried out in SAAB (The Rainforest).",
+    "course_name": "Company Project",
+    "long_description": "The project aimed to create a proxy test environment that is as realistic as possible, which means that both proxy drones (Crazyflies) compared to the real drones that will fly at several hundred kilometers per hour and weigh approximately 1 ton, should not have major differences in environment and tasks, but the differences should be as small as possible to avoid discrepancies.\n\nThe client also requested that if time permits, to improve the current GUI that simulates how a user can get information about drones and manage them, or create a completely new GUI from scratch that should be more modular, modern, and user-friendly than the old GUI that already exists.\n\nThe client also requested that if time permits, to improve the current GUI that simulates how a user can get information about drones and manage them, or create a completely new GUI from scratch that should be more modular, modern, and user-friendly than the old GUI that already exists.\n\nThe most important lessons learned from the project:\nActively participate in a larger project at a professional level, acting in one of the student's self-chosen roles within the project as their specialty, work modularly and take overall responsibility for a certain part of a larger system solution, work in a professional development environment with project management, testing, and error reporting, adapt methods, work forms, design, and construction to meet external stakeholders' requirements, and deliver results in a professional and flexible manner to satisfy project stakeholders.\nThe work is done in a larger group (5-7) and the task is related to realistic problems and carried out under realistic conditions. The project is self-organizing but must meet external stakeholders' requirements. Students can assign themselves different roles and partial responsibilities. During seminars, the results achieved by different students and subgroups are discussed. The quality of the final product is the decisive criterion for passing the course. Each student is responsible for their own contribution only - which should be clearly divided and formalized. An individual reflection report concludes the course.",
+    "group_size": 7,
+    "academic_credits": "10 credits",
+    "external_link": "https://www.ida.liu.se/~TDP017/index.sv.shtml",
+    "small_image": "saab2.jpg",
+    "techniques_used": [
+        "Python3","Angular","TypeScript","JavaScript","OpenLayers","OpenStreetMap","GUI","Bokeh","Devops","Scrum","GitLab","Flask","Figma","front-end","back-end","Full Stack","Visual Studio Code"
+        ,"cflib(Crazyflie python library)","API","SCSS","HTML"
+    ],
+    "project_name": "Proxy Drones",
+    "course_id": "TDP017",
+    "end_date": "2023-01-15",
+    "project_id": 2,
+    "big_image": "saab.png"
+  },
+  {
+    "start_date": "2022-01-17",
+    "short_description": "A public app for keeping track of lightning strikes and thunderstorms. The project carried out in Zenon AB.",
+    "course_name": "Project: Agile System Development",
+    "long_description": "Blixtvakt Web, IOS and Android Application\n\nA public app for keeping track of lightning strikes and thunderstorms. The target audience for this application is those who want to be informed when a thunderstorm occurs nearby. The application is expected to become more popular during the summer months (June, July, and August) when thunderstorms are most common. The application is used for various reasons, for example, people who are afraid for their children when thunderstorms occur nearby, or those who want to keep an eye on their forest to see if there is any lightning present. The sooner one detects the danger, the less damage will occur.\n\nThe most important lessons learned from the project:\nDevelop an interactive application together with clients, develop software together with programmers and clients, develop software based on the agile methodology's foundations, Understand the agile methodology compared to other methodologies, account for the concepts of ecological, social and economic sustainable development from an engineering perspective, reason for sustainability concepts and paradigms, sustainability challenges, and the relationship between sustainability and technology development and use, apply usability principles and integrate usability work within the framework of an agile system development process, ability to work with agile methods both individually, in pairs, and in teams, ability to communicate and function socially in a good way in a project and team (Communication), ability to develop software in the easiest way possible to solve a given requirement (Simplicity), Ability to recieve and give feedback in a constructive way (Feedback), Work at a high speed with good quality and deliver innovative satisfying results (Courage), Work directly with source code rather than documentation and be open to continual changes (Working Software + Responding to Change) and Plan an carry out usability testing.",
+    "group_size": 6,
+    "academic_credits": "10 credits",
+    "external_link": "https://www.ida.liu.se/~TDP032/index.sv.shtml",
+    "small_image": "blixtvakt2.png",
+    "techniques_used": [
+        "Java ","Angular","Ionic/capacitor","Docker","Agil","Android","IOS","web application","Jira","Trello"
+    ],
+    "project_name": "Blixtvakt(lightning guard) Web, IOS and Android Application",
+    "course_id": "TDP032",
+    "end_date": "2022-06-05",
+    "project_id": 3,
+    "big_image": "blixtvakt.png"
+  },
+  {
+    "start_date": "2021-08-30",
+    "short_description": "A website similar to Facebook.",
+    "course_name": "Web Programming and Interactivity",
+    "long_description": "MyFace (A social website) is a website similar to Facebook.\nThe purpose of the course is to provide knowledge about practical and conceptual aspects of web-page with an interactive and executable content. The most important lessons learned from the project:\nCreate rich web pages that include dynamic information, interactivity and database connectivity, using programming languages such as JavaScript and PHP to create interactive Web content, using techniques such as AJAX and SOAP to create interactive Web content, apply the rules of good interaction design for web pages and sites and plan and implement the creation of a website.",
+    "group_size": 2,
+    "academic_credits": "6 credits",
+    "external_link": "https://gitlab.liu.se/jimte145/tdp013-labbar",
+    "small_image": "tdp013.png",
+    "techniques_used": [
+        "HTML","CSS","UX","Dynamic HTML","XML","PHP","JavaScript","Cors","Node.js","Mocha","MongoDB","Bootstrap","Client model","Server model","back-end","front-end","AJAX","SOAP","Database Connectivity"
+    ],
+    "project_name": "MyFace (A social website)",
+    "course_id": "TDP013",
+    "end_date": "2021-10-31",
+    "project_id": 4,
+    "big_image": "tdp013.png"
+  },
+  {
+    "start_date": "2021-11-01",
+    "short_description": "The chat app enables two users to chat with each other ...",
+    "course_name": "Programming in C# and .NET Framework",
+    "long_description": "Peer-to-peer(P2P) chat application for Windows\nThe chat app enables two users to chat with each other. The user can send a chat invitation and wait for the other party to accept it. Then both users can send text messages and pictures to each other. The entire communication is based on port number and IP address. Users do NOT need to create any account and the chat app is serverless.\n\nThe purpose of this course is to study constructions and mechanisms in the programming language C#, the .NET Framework, and the development environment Visual Studio. The focus of the course is on the application of these techniques. The most important lessons learned from the project are to:\n Apply and reflect on C#'s language constructs and their semantics, such as classes, delegates, events, and networking, to build object-oriented programs, to apply and reflect on various central parts of the .NET Framework, such as ASP.NET, ADO.NET, and Windows Presentation Foundation (WPF) to build applications, and to apply and reflect on the development environment Visual Studio.",
+    "group_size": 2,
+    "academic_credits": "4 credits",
+    "external_link": "https://gitlab.liu.se/ahmsi881/tddd49",
+    "small_image": "tddd49.png",
+    "techniques_used": [
+        "C#",".NET Framework","Visual Studio","ASP.NET","ADO.NET","WPF(Windows Presentation Foundation)"
+    ],
+    "project_name": "Peer-to-peer(P2P) chat application for Windows",
+    "course_id": "TDDD49",
+    "end_date": "2022-01-16",
+    "project_id": 5,
+    "big_image": "tddd49.png"
+  },
+  {
+    "start_date": "2022-01-17",
+    "short_description": "Phoniro is an IT company that works with digital key solutions primarily focused on healthcare and welfare ...",
+    "course_name": "Interactive Systems",
+    "long_description": "Phoniro Lock\nPhoniro is an IT company that works with digital key solutions primarily focused on healthcare and welfare. Currently, they have a mobile app called Phoniro - Home Care that is used in home care services to unlock doors with digital locks installed at the user's residence.\nThe task is to design a product for Phoniro that allows relatives to unlock the door for their elderly family members or acquaintances who use Phoniro's digital lock system for their home care services. It is assumed that many users would like their relatives to be able to help them manage the digital lock system while also allowing their loved ones to use the digital locks themselves. Ensuring a sense of security is crucial for the company's business profile.\n\nThe most important lessons learned from the project are to:\nDefine, prioritize, and communicate close to user design goals for interactive systems, evaluate and argue for a particular design solution among alternatives, make a design specification for a user interface, construct an interactive interface prototype in a computer tool and plan, implement and communicate a usability test.\n\nDevelop systems to be used by a client (customer), basic skills in designing effective user interfaces in accordance with prevailing standards and principles, evaluate interactive system usability, basic concepts in human-computer interaction, design principles and guidelines for user interfaces, prototyping of graphical user interfaces, User Studies, design Methods, User interfaces and Usability Evaluation.",
+    "group_size": 5,
+    "academic_credits": "4 credits",
+    "external_link": "https://www.ida.liu.se/~TDDD60/index.sv.shtml",
+    "small_image": "tddd60.png",
+    "techniques_used": [
+        "Figma"
+    ],
+    "project_name": "Phoniro Lock",
+    "course_id": "TDDD60",
+    "end_date": "2022-03-27",
+    "project_id": 6,
+    "big_image": "tddd60.png"
+  },
+  {
+    "start_date": "2021-08-30",
+    "short_description": "The Color game is an app aimed at children.",
+    "course_name": "Project: Entrepreneurial Programming",
+    "long_description": "Color Game (Android Application)\n\nThe Color game is an app aimed at children. The app is a color game where children will learn colors first by displaying the colors with their names next to them. After the child completes the learning, they can jump into the actual game by clicking the 'PLAY NOW' button. If the child clicks on the correct color, they win and the app moves on to the next color. Children will notice that they have won a color when the app plays a background sound with the word 'Happy' that is suitable for children. If the child answers correctly on the last color, the screen will display a big image with another sound effect in the background to indicate that the game is over and that the child has won on all the questions available. The app can be run in multiple languages depending on the language of the Android system (English/Swedish/Arabic). The app also has several tools in the Settings that can be adjusted, for example, the user can choose whether they want dark mode or not, and choose small or large font size.\n\nThe most important lessons learned from the project:\nInsights on how software development is influenced by marketing, sales and business models, ability to define, set requirements and implement a software product, ability to briefly introduce and demonstrate a product's core value and unique selling point, ability to perform a competitor analysis and define a software product related to the analysis, ability to convert the methodology for A/B testing of software and entrepreneurial programming to concrete design and implementation, use of best practices for Android development, use of APIs, ability to shortly present and demonstrate a software product, ability to search for relevant scientific literature related to the task, to work with development of code without a clear client and experience in defining and prioritizing requirements, finalize the software on a market level and explain the functionality. Projects in this course is built on a common technology (Java for Android and specified APIs) but the products / services is determined by the student.",
+    "group_size": 1,
+    "academic_credits": "10 credits",
+    "external_link": "https://gitlab.liu.se/ahmsi881/tdp028",
+    "small_image": "colorgame2.jpg",
+    "techniques_used": [
+        "Android","Java","API"
+    ],
+    "project_name": "Color Game (Android Application)",
+    "course_id": "TDP028",
+    "end_date": "2022-01-16",
+    "project_id": 7,
+    "big_image": "colorgame.jpg"
+  },
+  {
+    "start_date": "2021-01-18",
+    "short_description": "ETL (Easy To Learn) has been largely inspired by the Ruby language. It has been developed for beginners and is written in a way that resembles written English, which increases the readability of the language.",
+    "course_name": "Project: Computer Language",
+    "long_description": "ETL (Easy To Learn) has been largely inspired by the Ruby language. It has been developed for beginners and is written in a way that resembles written English, which increases the readability of the language.\n\nThe purpose of this project was to demonstrate the components that make up a programming language and how a new programming language is built using those components.\n\nThe ETL language is designed for beginners who have no prior programming knowledge. It is perfect for those who want to start learning programming correctly, as it covers the elementary foundations of programming. The language will also be suitable for teachers who want to teach programming to beginners or possibly to a group of children in elementary school.\n\nThe most important lessons learned from the project:\nConstruct a small computer language, discuss and motivate design choices in the student's own computer language, based on theory and own experiences, implement tools (interpreters, compilers, etc) for the student's own computer language, write technical documentation for a computer language, knowledge and experience of developing an own computer language in a community, knowledge and experience of constructing an advanced syntactic formalism for a computer language using parsing and implemententing the semantics of a language in the form of an interpreter or a translator to another language.",
+    "group_size": 2,
+    "academic_credits": "10 credits",
+    "external_link": "https://gitlab.liu.se/ahmsi881/tdp019",
+    "small_image": "logo2.png",
+    "techniques_used": [
+        "Ruby"
+    ],
+    "project_name": "ETL (Easy To Learn)",
+    "course_id": "TDP019",
+    "end_date": "2021-06-06",
+    "project_id": 8,
+    "big_image": "logo2.png"
+  },
+  {
+    "start_date": "2020-11-18",
+    "short_description": "ME WANT COOKIE!! This maze game is about navigating through the labyrinth to reach the golden cake on the game board. The player is represented by a cake monster and on the way to the golden cake, points can be collected by eating the cakes encountered along the way.",
+    "course_name": "Project: Object Oriented System",
+    "long_description": "ME WANT COOKIE!!\n\nThis maze game is about navigating through the maze to reach the golden cake on the game board. The player is represented by a cookie monster and along the way to the golden cake, they can collect points by eating the cookies they encounter. But beware of the burnt ones, as they consume points while you eat them. You must also watch out for the evil vegetables that move around the game board and wait to take one of the player's lives. The enemies move in a specific pattern, so sometimes a little patience can help the player. In case of a collision with an enemy, the player loses one life and the enemy disappears from the game board. The player has a total of three lives and if they lose all of them, the game ends without any winnings. This is a high score game and each remaining life earns 10 points when the player reaches the center, so every heart counts. It is very easy to control the player using the keys a, w, s, and d for the directions w = up, s = down, d = right, and a = left. Don't hesitate to try out this awesome game. \n \n The most important lessons learned from the project: good knowledge of using an object-oriented language and its libraries, good knowledge of using UML (Unified Markup Language) for object-oriented design, good knowledge of using SFML (Simple and Fast Multimedia Library) for GUI development in C++, good knowledge of software engineering methodology, good experience with using tools in program design, good experience with code design, good experience with project phases, design, development, testing and documentation, constructed a more comprehensive program that follows the object-oriented methodology, knowledge of good source code design, ability to improve software by holding and participating in code review meetings, good knowledge of using version control with Git and Gitlab, good knowledge of using CMake for compilation, good knowledge of using Emacs and CLion for editing, good knowledge of using Ubuntu as an operating system.",
+    "group_size": 3,
+    "academic_credits": "6 credits",
+    "external_link": "https://gitlab.liu.se/josbo110/tdp005",
+    "small_image": "gamewin.jpg",
+    "techniques_used": [
+        "C++", "Make", "Git", " Doxygen", "SFML(grafikpaket)"
+    ],
+    "project_name": "Maze game",
+    "course_id": "TDP005",
+    "end_date": "2020-12-18",
+    "project_id": 9,
+      "big_image": "game.jpg"
+  },
+  {
+    "start_date": "2020-08-31",
+    "short_description": "The portfolio is a collection of Python-based programs, a database, and a website with HTML and CSS. The purpose of the portfolio is to provide a way to showcase projects that the user has worked on.",
+    "course_name": "Project: Personal Computer Environment",
+    "long_description": "The project, also known as portfolio, is a collection of Python-based programs, a database, and a website with HTML and CSS. The purpose of the portfolio is to provide a way to showcase projects that the user has worked on. The portfolio can be used in multiple ways, but is intended to be published on a server as a website. The most important lessons learned from the project include having good knowledge of managing a functional computer environment for personal work, using basic scripts and programming tools, building a website and supporting programs for managing a project portfolio, refining and using project planning and specifications, and documenting a product in writing.",
+    "group_size": 2,
+    "academic_credits": "6 credits",
+    "external_link": "https://gitlab.liu.se/tdp003-2020/ahmsi881",
+    "small_image": "portfolio4.png",
+    "techniques_used": [
+      "Flask",
+      "Jinja2",
+      "Python3",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON",
+      "Git",
+      "LATEX",
+      "GIMP",
+      "PIP",
+      "Emacs",
+      "bash",
+      "Linux"
+    ],
+    "project_name": "Portfolio",
+    "course_id": "TDP003",
+    "end_date": "2020-11-01",
+    "project_id": 10,
+    "big_image": "portfolio4.png"
+  }
+]
