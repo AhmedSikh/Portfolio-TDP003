@@ -1,0 +1,2 @@
+Det som funkade för .gitlab-ci.yml är gamla versionen som finns på allmänna portfolio(jag och Jim) 
+med nya version siffror för tre rader apiVersion
